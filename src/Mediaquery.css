@@ -1142,17 +1142,19 @@
      /* Seção 5 */
      .download img{
         width: 400px;
+        position: relative;
+      
      }
      .part2 h1{
         font-size: 3rem;
-        margin-left: 80px;
+        margin-left: 40px;
      }
 
      
     .part2 p{
 
         font-size: 1.3rem;
-        margin-left: 80px;
+        margin-left: 40px;
 
     }
 
