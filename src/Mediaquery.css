@@ -1,0 +1,1218 @@
+/* Versão para telas de celulares */
+
+@media only screen and (min-width: 320px) and (max-width: 468px) {
+
+/* Seção 1 */
+
+.aba-geral .aba img{
+   width: 100px;
+}
+
+
+.aba-geral select{
+
+   width: 70px;
+   font-size: 0.5rem;
+   height: 25px;
+   
+
+}
+
+.aba-geral .btn-entrar{
+   width: 45px;
+   height: auto;
+   font-size: 0.5rem;
+   padding: 7px;
+
+   
+}
+
+.conteúdo-central h1{
+   font-size: 1.6rem;
+}
+
+.conteúdo-central p{
+   font-size: 0.7rem;
+}
+
+.conteúdo-central .p2{
+   font-size: 0.7rem;
+}
+
+.conteúdo-central .form1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.conteúdo-central  input{
+   width: 300px;
+   font-size: 0.8rem;
+   height: 40px;
+ 
+   
+}
+.conteúdo-central  button{
+   width: 100px;
+   font-size: 12px;
+   top: 0;
+   padding: 10px;
+   margin-top: 20px;
+}
+
+.pipoca{
+ width: 85%;
+ height: 160px;
+ background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(90, 3, 90), rgb(126, 11, 11), rgb(90, 3, 90), rgb(0, 0, 0));
+ display: flex;
+ flex-direction: row-reverse;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ bottom: 80px;
+ border: 1px solid rgba(0, 0, 0, 0.356);
+ border-radius: 5px;
+ 
+ 
+}
+.pipoca img{
+ width: 60px;
+ margin: 30px;
+}
+.texto-pipoca{
+ display: flex;
+ flex-direction: column;
+ /* align-items: center;
+ justify-content: center; */
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.8rem;
+ 
+ 
+}
+
+.texto-pipoca .texto1{
+ font-size: 0.9rem;
+ font-weight: 600;
+ margin-bottom: 10px;
+
+ 
+}
+
+.texto-pipoca  p{
+   font-size: 0.65rem;
+}
+
+
+
+
+.texto-pipoca2 a{
+ font-size: 0.8rem;
+ 
+
+}
+
+
+
+
+/* Seção 2 */
+
+.seção2{
+   display: flex;
+   flex-direction: column;
+   margin:0;
+   align-items: center;
+   justify-content: center;
+   
+   
+  
+
+}
+.seção2 .part1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 100px;
+  
+   
+}
+.seção2 .part1 h1{
+ font-size: 1.3rem;
+   margin:0;
+   margin-bottom: 30px;
+}
+.seção2 .part1 p{
+   font-size: 0.65rem;
+   margin:0;
+   width: 90%;
+   
+}
+
+.seção2 .tv img{
+   width: 150px;
+  position: relative;
+  margin: 0;
+  
+   
+}
+
+.seção2 .part1 p{
+   margin: 0;
+}
+
+
+
+
+
+
+
+/* Seção 3 */
+
+.seção3{
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+   
+}
+
+
+.seção3 img{
+   width: 150px;
+
+}
+
+.seção3 .part2{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 50px;
+  
+ }
+
+.seção3 .part2 h1{
+ font-size: 1.3rem;
+ 
+}
+
+
+.seção3 .part2 p{
+   font-size: 0.7em;
+   width: 90%;
+   
+
+}
+
+.dispositivos{
+   align-items: center;
+   width: 100%;
+}
+
+
+
+
+
+/* Seção 4 */
+
+.seção4{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   
+}
+
+.seção4 .part1{
+   margin: 0;
+}
+.part1{
+   width: 100%;
+}
+
+.seção4 .part1 h1{
+ font-size: 1.3rem;
+   margin: 0;
+   width: 100%;
+}
+
+
+
+.seção4 .part1 p{
+   font-size: 0.7rem;
+   margin: 0;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 40px;
+}
+
+
+.seção4 .kids img{
+   max-width: 190px;
+   margin-right: 10px;
+   margin: 0;
+ }
+
+
+
+
+/* Seção 5 */
+
+.seção5{
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+}
+
+
+.download img{
+   width: 190px;
+   margin: 0;
+   margin-top: 40px;
+}
+.part2 h1{
+   font-size: 1.3rem;
+   margin: 0;
+}
+
+
+.part2 p{
+
+   font-size: 0.7rem;
+   margin: 0;
+   text-align: center;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 30px;
+   
+
+}
+
+
+
+
+
+/* Seção 6 */
+.seção6 h1{
+   font-size: 1.3rem;
+   position: relative;
+   bottom: 30px;
+}
+.seção6 p{
+   font-size: 0.7rem;
+}
+
+.perguntas{
+   width: 300px; 
+   margin: auto;
+   margin-top: 20px;
+   height: 60px;
+   
+   
+  
+}
+
+.seção6 .parágrafo p{
+   font-size: 0.8rem;
+   margin-top: 60px;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 20px;
+   position: relative;
+   top: 50px;
+}
+
+
+.form2{
+   display: flex;
+   flex-direction: column;
+}
+
+.principal{
+
+   width: 100%;
+  
+   
+}
+
+.perguntas .vertical{
+ width: 2.23px;
+ height: 20px;
+ background-color: white;
+ 
+}
+
+.perguntas .horizontal{
+ width: 20px;
+ height: 1.23px;
+ background-color: white;
+ position: relative;
+ right: 9px;
+ bottom: 11px;
+ 
+}
+
+
+
+.seção6 input{
+   width: 300px;
+   padding: 10px;
+   margin: auto;
+   margin-bottom: 20px;
+   font-size: 1rem;
+   position: relative;
+   top: 50px;
+
+  
+   
+   
+}
+
+
+
+.seção6 button{
+   width: 110px;
+   font-size: 14px;
+   top: 0;
+   margin: auto;
+   padding: 10px;
+   position: relative;
+   top: 50px;
+   
+  
+}
+
+
+
+ /* Seção 7 */
+
+
+
+
+ .seção7 .parágrafoPrincipal{
+   font-size: 0.7rem;
+   margin-left: 10px;
+}
+.seção7 .coluna1  p{
+   font-size: 0.5rem;
+   margin-left: 10px;
+}
+.parte2 p{
+   font-size: 0.5rem;
+   position: relative;
+   right: 10px;
+}
+
+.parte3 p{
+   font-size: 0.5rem;
+   position: relative;
+   right: 10px;
+}
+
+.parte4 p{
+   font-size: 0.5rem;
+   position: relative;
+   right: 0px;
+}
+
+.seção7 select{
+   width: 90px;
+   font-size: 0.6rem;
+   width: 80px;
+   height: 30px;
+   margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* Versão para telas de Tablets*/
+
+ @media only screen and (min-width: 468px) and (max-width: 600px) {
+    
+    /* Seção 1 */
+
+    .aba-geral .aba img{
+        width: 110px;
+    }
+
+
+    .aba-geral select{
+
+        width: 80px;
+        font-size: 0.6rem;
+        height: 30px;
+        
+
+    }
+
+    .aba-geral .btn-entrar{
+        width: 50px;
+        height: auto;
+        font-size: 0.7rem;
+        padding: 7px;
+     
+        
+    }
+
+    .conteúdo-central h1{
+        font-size: 1.8rem;
+    }
+
+    .conteúdo-central p{
+        font-size: 0.9rem;
+    }
+
+    .conteúdo-central .p2{
+        font-size: 0.9rem;
+    }
+
+    .conteúdo-central  input{
+        width: 300px;
+        font-size: 0.9rem;
+        height: 45px;
+      
+        
+    }
+    .conteúdo-central  button{
+        width: 120px;
+        font-size: 15px;
+        top: 0;
+    }
+
+    .pipoca{
+      width: 85%;
+      height: 160px;
+      background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(90, 3, 90), rgb(126, 11, 11), rgb(90, 3, 90), rgb(0, 0, 0));
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      bottom: 80px;
+      border: 1px solid rgba(0, 0, 0, 0.356);
+      border-radius: 5px;
+      
+      
+    }
+    .pipoca img{
+      width: 65px;
+      margin: 30px;
+    }
+    .texto-pipoca{
+      display: flex;
+      flex-direction: column;
+      /* align-items: center;
+      justify-content: center; */
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.8rem;
+      
+      
+    }
+  
+    .texto-pipoca .texto1{
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+  
+      
+    }
+  
+
+  
+  
+   .texto-pipoca2 a{
+      font-size: 0.8rem;
+      
+  
+   }
+
+
+
+
+    /* Seção 2 */
+
+    .seção2{
+        display: flex;
+        flex-direction: column;
+        margin:0;
+        align-items: center;
+        justify-content: center;
+        
+        
+       
+
+    }
+    .seção2 .part1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+       
+        
+    }
+    .seção2 .part1 h1{
+      font-size: 1.5rem;
+        margin:0;
+    }
+    .seção2 .part1 p{
+        font-size: 0.9rem;
+        margin:0;
+        
+    }
+
+    .seção2 .tv img{
+        width: 300px;
+       position: relative;
+       margin: 0;
+       
+        
+    }
+
+    .seção2 .part1 p{
+        margin: 0;
+    }
+    
+    
+
+
+
+
+
+    /* Seção 3 */
+
+    .seção3{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        
+    }
+
+
+    .seção3 img{
+        width: 250px;
+
+     }
+
+     .seção3 .part2{
+       display:  flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+       margin: 0;
+       margin-bottom: 50px;
+       
+      }
+
+     .seção3 .part2 h1{
+      font-size: 1.5rem;
+     }
+
+
+     .seção3 .part2 p{
+        font-size: 0.8rem;
+     }
+     
+     .dispositivos{
+        align-items: center;
+        width: 100%;
+     }
+
+
+
+
+
+    /* Seção 4 */
+
+     .seção4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+     }
+
+     .seção4 .part1{
+        margin: 0;
+     }
+     .part1{
+        width: 100%;
+     }
+
+    .seção4 .part1 h1{
+      font-size: 1.5rem;
+        margin: 0;
+        width: 100%;
+     }
+
+
+
+     .seção4 .part1 p{
+        font-size: 0.8rem;
+        margin: 0;
+        
+        
+     }
+
+
+     .seção4 .kids img{
+        max-width: 300px;
+        margin-right: 10px;
+        margin: 0;
+      }
+
+
+
+
+    /* Seção 5 */
+
+    .seção5{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+
+    .download img{
+        width: 300px;
+        margin: 0;
+        margin-top: 40px;
+     }
+     .part2 h1{
+        font-size: 1.5rem;
+        margin: 0;
+     }
+
+     
+    .part2 p{
+
+        font-size: 0.9rem;
+        margin: 0;
+        text-align: center;
+        
+
+    }
+
+
+
+
+
+    /* Seção 6 */
+    .seção6 h1{
+        font-size: 1.5rem;
+        position: relative;
+        bottom: 30px;
+     }
+     .seção6 p{
+        font-size: 1rem;
+     }
+
+     .perguntas{
+        width: 400px; 
+        margin: auto;
+        margin-top: 20px;
+        height: 70px;
+        
+        
+       
+     }
+
+     .seção6 .parágrafo p{
+        font-size: 0.8rem;
+        margin-top: 40px;
+     }
+
+   
+
+
+     .principal{
+
+        width: 100%;
+       
+        
+     }
+
+     .perguntas .vertical{
+      width: 2.23px;
+      height: 20px;
+      background-color: white;
+      
+    }
+    
+    .perguntas .horizontal{
+      width: 20px;
+      height: 1.23px;
+      background-color: white;
+      position: relative;
+      right: 9px;
+      bottom: 11px;
+      
+    }
+   
+
+
+    .seção6 input{
+        width: 250px;
+        padding: 8px;
+
+       
+        
+        
+     }
+
+
+
+     .seção6 button{
+        width: 130px;
+        font-size: 15px;
+        top: 0;
+       
+     }
+
+
+     
+      /* Seção 7 */
+     
+      .seção7 .parágrafoPrincipal{
+        font-size: 0.7rem;
+     }
+     .seção7 .coluna1  p{
+        font-size: 0.6rem;
+     }
+     .parte2 p{
+        font-size: 0.5rem;
+     }
+
+     .parte3 p{
+        font-size: 0.5rem;
+     }
+
+     .parte4 p{
+        font-size: 0.5rem;
+     }
+
+     .seção7 select{
+        width: 90px;
+        font-size: 0.7rem;
+     }
+
+
+
+
+   
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    /* Seção 1 */
+
+    .aba-geral .aba img{
+        width: 130px;
+    }
+
+
+    .aba-geral select{
+
+        width: 100px;
+        font-size: 0.8rem;
+
+    }
+
+    .aba-geral .btn-entrar{
+        width: 55px;
+        height: auto;
+        font-size: 0.78rem;
+        
+    }
+
+    .conteúdo-central h1{
+        font-size: 2.5rem;
+    }
+
+    .conteúdo-central p{
+        font-size: 1.1rem;
+    }
+
+    .conteúdo-central .p2{
+        font-size: 1.1rem;
+    }
+
+    .conteúdo-central  input{
+        width: 350px;
+        font-size: 1.1rem;
+      
+        
+    }
+    .conteúdo-central  button{
+        width: 150px;
+        font-size: 18px;
+        top: 0;
+    }
+
+
+
+
+
+    /* Seção 2 */
+
+    .seção2 .part1 h1{
+        font-size: 2.2rem;
+    }
+    .seção2 .part1 p{
+        font-size: 1.1rem;
+    }
+
+    .seção2 .tv img{
+        width: 200px;
+    }
+
+
+
+
+
+    /* Seção 3 */
+
+    .seção3 img{
+        width: 200px;
+     }
+
+     .seção3 .part2{
+        margin-right: 40px;
+      }
+
+     .seção3 .part2 h1{
+        font-size: 2.2rem;
+     }
+
+
+     .seção3 .part2 p{
+        font-size: 1rem;
+     }
+
+
+
+
+
+    /* Seção 4 */
+
+    .seção4 .part1 h1{
+        font-size: 2.2rem;
+     }
+
+
+
+     .seção4 .part1 p{
+        font-size: 1rem;
+     }
+
+
+     .seção4 .kids img{
+        max-width: 270px;
+        margin-right: 10px;
+      }
+
+
+
+
+    /* Seção 5 */
+
+    .download img{
+        width: 300px;
+     }
+     .part2 h1{
+        font-size: 2.2rem;
+        margin: 0;
+     }
+
+     
+    .part2 p{
+
+        font-size: 1rem;
+        margin: 0;
+        
+
+    }
+
+
+
+
+
+    /* Seção 6 */
+    .seção6 h1{
+        font-size: 2.8rem;
+        position: relative;
+        bottom: 20px;
+     }
+     .seção6 p{
+        font-size: 1.2rem;
+     }
+
+  
+
+     .perguntas{
+        width: 500px;
+        margin: auto; 
+        margin-top: 20px;
+     }
+
+     .seção6 .parágrafo p{
+        font-size: 1.06rem;
+        margin-top: 60px;
+     }
+
+   
+
+
+    .seção6 input{
+        width: 350px;
+        padding: 12px;
+    
+     }
+
+     .seção6 button{
+        width: 140px;
+        font-size: 18px;
+        top: 0;
+       
+       
+     }
+
+
+     
+      /* Seção 7 */
+     
+      .seção7 .parágrafoPrincipal{
+        font-size: 0.8rem;
+     }
+     .seção7 .coluna1  p{
+        font-size: 0.7rem;
+     }
+     .parte2 p{
+        font-size: 0.7rem;
+     }
+
+     .parte3 p{
+        font-size: 0.7rem;
+     }
+
+     .parte4 p{
+        font-size: 0.7rem;
+     }
+
+     .seção7 select{
+        width: 130px;
+        font-size: 0.9rem;
+     }
+    
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:992px){
+
+/* Seção 1 */
+    .aba-geral .aba img{
+        width: 150px;
+    }
+
+    .aba-geral select{
+
+        width: 120px;
+        font-size: 0.9rem;
+
+    }
+
+    .aba-geral .btn-entrar{
+        width: 60px;
+        font-size: 0.9rem;
+    }
+
+    .conteúdo-central h1{
+        font-size: 3.5rem;
+    }
+
+    .conteúdo-central p{
+        font-size: 1.3rem;
+    }
+
+    .conteúdo-central .p2{
+        font-size: 1.3rem;
+    }
+
+    .conteúdo-central  input{
+        width: 400px;
+        font-size: 1.2rem;
+      
+        
+    }
+    .conteúdo-central  button{
+        width: 160px;
+        font-size: 20px;
+        top: 0;
+    }
+
+    /* Seção 2 */
+
+    .seção2 .part1 h1{
+        font-size: 3rem;
+    }
+    .seção2 .part1 p{
+        font-size: 1.3rem;
+    }
+
+    .seção2 .tv img{
+        width: 300px;
+    }
+
+     /* Seção 3 */
+     .seção3 img{
+        width: 300px;
+     }
+
+     .seção3 .part2{
+        margin-right: 40px;
+      }
+
+     .seção3 .part2 h1{
+        font-size: 3rem;
+     }
+
+
+
+
+
+     /* Seção 4 */
+     .seção4 .part1 h1{
+        font-size: 3rem;
+     }
+
+
+
+     .seção4 .part1 p{
+        font-size: 1.3rem;
+     }
+
+
+     .seção4 .kids img{
+        width: 400px;
+        margin-right: 10px;
+      }
+
+
+
+     /* Seção 5 */
+     .download img{
+        width: 400px;
+     }
+     .part2 h1{
+        font-size: 3rem;
+        margin-left: 80px;
+     }
+
+     
+    .part2 p{
+
+        font-size: 1.3rem;
+        margin-left: 80px;
+
+    }
+
+
+
+
+     /* Seção 6 */
+
+     .seção6 h1{
+        font-size: 3rem;
+     }
+     .seção6 p{
+        font-size: 1.3rem;
+     }
+
+     .perguntas{
+        width: 750px; 
+        
+     }
+
+     .seção6 .parágrafo p{
+        font-size: 1.2rem;
+     }
+
+     .seção6 input{
+        width: 400px;
+        padding: 14px;
+     }
+
+
+     .seção6 button{
+        width: 160px;
+        font-size: 20px;
+        top: 0;
+       
+     }
+
+     /* Seção 7 */
+     
+     .seção7 .parágrafoPrincipal{
+        font-size: 1rem;
+     }
+     .seção7 .coluna1  p{
+        font-size: 0.9rem;
+     }
+     .parte2 p{
+        font-size: 0.9rem;
+     }
+
+     .parte3 p{
+        font-size: 0.9rem;
+     }
+
+     .parte4 p{
+        font-size: 0.9rem;
+     }
+
+     .seção7 select{
+        width: 150px;
+        font-size: 1rem;
+     }
+
+
+}
