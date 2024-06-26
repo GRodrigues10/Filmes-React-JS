@@ -100,7 +100,7 @@
 }
 
 .texto-pipoca  p{
-   font-size: 0.65rem;
+   font-size: 0.8rem;
 }
 
 
@@ -139,19 +139,19 @@
    
 }
 .seção2 .part1 h1{
- font-size: 1.3rem;
+ font-size: 1.6rem;
    margin:0;
    margin-bottom: 30px;
 }
 .seção2 .part1 p{
-   font-size: 0.65rem;
+   font-size: 0.8rem;
    margin:0;
    width: 90%;
    
 }
 
 .seção2 .tv img{
-   width: 150px;
+   width: 250px;
   position: relative;
   margin: 0;
   
@@ -182,7 +182,7 @@
 
 
 .seção3 img{
-   width: 150px;
+   width: 250px;
 
 }
 
@@ -198,13 +198,13 @@
  }
 
 .seção3 .part2 h1{
- font-size: 1.3rem;
+ font-size: 1.6rem;
  
 }
 
 
 .seção3 .part2 p{
-   font-size: 0.7em;
+   font-size: 0.8em;
    width: 90%;
    
 
@@ -237,7 +237,7 @@
 }
 
 .seção4 .part1 h1{
- font-size: 1.3rem;
+ font-size: 1.6rem;
    margin: 0;
    width: 100%;
 }
@@ -245,7 +245,7 @@
 
 
 .seção4 .part1 p{
-   font-size: 0.7rem;
+   font-size: 0.8rem;
    margin: 0;
    width: 90%;
    margin: auto;
@@ -254,7 +254,7 @@
 
 
 .seção4 .kids img{
-   max-width: 190px;
+   max-width: 250px; 
    margin-right: 10px;
    margin: 0;
  }
@@ -272,19 +272,20 @@
 
 
 .download img{
-   width: 190px;
+   width: 250px;
    margin: 0;
    margin-top: 40px;
 }
 .part2 h1{
-   font-size: 1.3rem;
+   font-size: 1.6rem;
+   text-align: center;
    margin: 0;
 }
 
 
 .part2 p{
 
-   font-size: 0.7rem;
+   font-size: 0.8rem;
    margin: 0;
    text-align: center;
    width: 90%;
@@ -300,7 +301,7 @@
 
 /* Seção 6 */
 .seção6 h1{
-   font-size: 1.3rem;
+   font-size: 1.6rem;
    position: relative;
    bottom: 30px;
 }
