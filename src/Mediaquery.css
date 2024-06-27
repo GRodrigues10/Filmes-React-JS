@@ -1,5 +1,457 @@
 /* Versão para telas de celulares */
 
+
+@media screen and (max-width:319px) {
+   
+   /* Seção 1 */
+
+.aba-geral .aba img{
+   width: 90px;
+   position: relative;
+   
+}
+.aba2{
+   margin-top: 20px;
+   
+}
+
+.aba-geral select{
+
+   width: 70px;
+   font-size: 0.5rem;
+   height: 25px;
+   position: relative;
+   right: 5px;
+   margin: 0;
+   
+
+}
+
+.aba-geral .btn-entrar{
+   width: 45px;
+   height: auto;
+   font-size: 0.5rem;
+   padding: 7px;
+  
+  
+
+   
+}
+
+.conteúdo-central h1{
+   font-size: 1.5rem;
+   width: 90%;
+   text-align:center;
+}
+
+.conteúdo-central p{
+   font-size: 0.7rem;
+   text-align: center;
+}
+
+.conteúdo-central .p2{
+   font-size: 0.7rem;
+   text-align: center;
+}
+
+.conteúdo-central .form1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.conteúdo-central  input{
+   width: 200px;
+   font-size: 0.8rem;
+   height: 40px;
+   
+ 
+   
+}
+.conteúdo-central  button{
+   width: 100px;
+   font-size: 12px;
+   top: 0;
+   padding: 10px;
+   margin-top: 20px;
+}
+
+.pipoca{
+ width: 85%;
+ height: 145px;
+ background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(90, 3, 90), rgb(126, 11, 11), rgb(90, 3, 90), rgb(0, 0, 0));
+ display: flex;
+ flex-direction: row-reverse;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ bottom: 80px;
+ border: 1px solid rgba(0, 0, 0, 0.356);
+ border-radius: 5px;
+ 
+ 
+}
+.pipoca img{
+ width: 50px;
+ margin: 30px;
+}
+.texto-pipoca{
+ display: flex;
+ flex-direction: column;
+ /* align-items: center;
+ justify-content: center; */
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.8rem;
+ 
+ 
+}
+
+.texto-pipoca .texto1{
+ font-size: 0.7rem;
+ font-weight: 600;
+ margin-bottom: 10px;
+
+ 
+}
+
+.texto-pipoca  p{
+   font-size: 0.6rem;
+}
+
+
+
+
+.texto-pipoca2 a{
+ font-size: 0.7rem;
+ 
+
+}
+
+
+
+
+/* Seção 2 */
+
+.seção2{
+   display: flex;
+   flex-direction: column;
+   margin:0;
+   align-items: center;
+   justify-content: center;
+   
+   
+  
+
+}
+.seção2 .part1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 100px;
+  
+   
+}
+.seção2 .part1 h1{
+ font-size: 1.5rem;
+   margin:0;
+   margin-bottom: 30px;
+}
+.seção2 .part1 p{
+   font-size: 0.7rem;
+   margin:0;
+   width: 90%;
+   
+}
+
+.seção2 .tv img{
+   width: 200px;
+  position: relative;
+  margin: 0;
+  
+   
+}
+
+.seção2 .part1 p{
+   margin: 0;
+}
+
+
+
+
+
+
+
+/* Seção 3 */
+
+.seção3{
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+   
+}
+
+
+.seção3 img{
+   width: 200px;
+
+}
+
+.seção3 .part2{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 50px;
+  
+ }
+
+.seção3 .part2 h1{
+ font-size: 1.5rem;
+ 
+}
+
+
+.seção3 .part2 p{
+   font-size: 0.7em;
+   width: 90%;
+   
+
+}
+
+.dispositivos{
+   align-items: center;
+   width: 100%;
+}
+
+
+
+
+
+/* Seção 4 */
+
+.seção4{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   
+}
+
+.seção4 .part1{
+   margin: 0;
+}
+.part1{
+   width: 100%;
+}
+
+.seção4 .part1 h1{
+ font-size: 1.5rem;
+   margin: 0;
+   width: 100%;
+}
+
+
+
+.seção4 .part1 p{
+   font-size: 0.7rem;
+   margin: 0;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 40px;
+}
+
+
+.seção4 .kids img{
+   max-width: 200px; 
+   margin-right: 10px;
+   margin: 0;
+ }
+
+
+
+
+/* Seção 5 */
+
+.seção5{
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+}
+
+
+.download img{
+   width: 200px;
+   margin: 0;
+   margin-top: 40px;
+}
+.part2 h1{
+   font-size: 1.5rem;
+   text-align: center;
+   margin: 0;
+}
+
+
+.part2 p{
+
+   font-size: 0.7rem;
+   margin: 0;
+   text-align: center;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 30px;
+   
+
+}
+
+
+
+
+
+/* Seção 6 */
+.seção6 h1{
+   font-size: 1.5rem;
+   position: relative;
+   bottom: 30px;
+}
+.seção6 p{
+   font-size: 0.6rem;
+}
+
+.perguntas{
+   width: 200px; 
+   margin: auto;
+   margin-top: 20px;
+   height: 60px;
+   
+   
+  
+}
+
+.seção6 .parágrafo p{
+   font-size: 0.7rem;
+   margin-top: 60px;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 20px;
+   position: relative;
+   top: 50px;
+}
+
+
+.form2{
+   display: flex;
+   flex-direction: column;
+}
+
+.principal{
+
+   width: 100%;
+  
+   
+}
+
+.perguntas .vertical{
+ width: 2.23px;
+ height: 20px;
+ background-color: white;
+ display: none;
+ 
+}
+
+.perguntas .horizontal{
+ width: 20px;
+ height: 1.23px;
+ background-color: white;
+ position: relative;
+ right: 9px;
+ bottom: 11px;
+ display: none;
+ 
+}
+
+
+
+.seção6 input{
+   width: 200px;
+   padding: 10px;
+   margin: auto;
+   margin-bottom: 20px;
+   font-size: 0.8rem;
+   position: relative;
+   top: 50px;
+
+  
+   
+   
+}
+
+
+
+.seção6 button{
+   width: 90px;
+   font-size: 12px;
+   top: 0;
+   margin: auto;
+   padding: 10px;
+   position: relative;
+   top: 50px;
+   
+  
+}
+
+
+
+ /* Seção 7 */
+
+
+
+
+ .seção7 .parágrafoPrincipal{
+   font-size: 0.7rem;
+   margin-left: 10px;
+}
+.seção7 .coluna1  p{
+   font-size: 0.5rem;
+   margin-left: 10px;
+}
+.parte2 p{
+   font-size: 0.5rem;
+   position: relative;
+   right: 10px;
+}
+
+.parte3 p{
+   font-size: 0.5rem;
+   position: relative;
+   right: 10px;
+}
+
+.parte4 p{
+   font-size: 0.5rem;
+   position: relative;
+   right: 0px;
+}
+
+.seção7 select{
+   width: 90px;
+   font-size: 0.6rem;
+   width: 80px;
+   height: 30px;
+   margin-left: 10px;
+}
+
+}
+
+
+
 @media only screen and (min-width: 320px) and (max-width: 468px) {
 
 /* Seção 1 */
@@ -14,21 +466,38 @@
    width: 70px;
    font-size: 0.5rem;
    height: 25px;
+   position: relative;
+   right: 5px;
+   margin: 0;
    
 
 }
+
+.aba-geral .aba img{
+   width: 90px;
+   position: relative;
+   
+}
+.aba2{
+   margin-top: 20px;
+   
+}
+
+
 
 .aba-geral .btn-entrar{
    width: 45px;
    height: auto;
    font-size: 0.5rem;
    padding: 7px;
+  
 
    
 }
 
 .conteúdo-central h1{
    font-size: 1.6rem;
+   text-align: center;
 }
 
 .conteúdo-central p{
@@ -37,6 +506,7 @@
 
 .conteúdo-central .p2{
    font-size: 0.7rem;
+      text-align: center;
 }
 
 .conteúdo-central .form1{
@@ -459,6 +929,9 @@
         width: 80px;
         font-size: 0.6rem;
         height: 30px;
+        position: relative;
+        margin: 0;
+        right: 5px;
         
 
     }
@@ -1218,4 +1691,468 @@
      }
 
 
+}
+
+
+@media screen and (min-width:1402px) and (max-width:1920px){
+
+
+
+   .aba-geral .aba img{
+      width: 250px;
+  }
+
+  .aba-geral select{
+
+      width: 140px;
+      font-size: 1.1rem;
+      height: 40px;
+
+  }
+
+  .aba-geral .btn-entrar{
+      width: 80px;
+      font-size: 1.1rem;
+  }
+
+  .conteúdo-central h1{
+      font-size: 5rem;
+  }
+
+  .conteúdo-central p{
+      font-size: 1.7rem;
+  }
+
+  .conteúdo-central .p2{
+      font-size: 1.7rem;
+  }
+
+  .conteúdo-central  input{
+      width: 700px;
+      font-size: 1.5rem;
+    
+      
+  }
+  .conteúdo-central  button{
+      width: 175px;
+      font-size: 26px;
+      top: 0;
+      height: 65px;
+  }
+
+  /* Seção 2 */
+
+  .seção2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+  }
+
+
+  .seção2 .part1 h1{
+      font-size: 3.5rem;
+  }
+  .seção2 .part1 p{
+      font-size: 1.5rem;
+  }
+
+  .seção2 .tv img{
+      width: 450px;
+      margin-inline-start: 60px;
+  }
+
+   /* Seção 3 */
+
+   
+  .seção3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+  }
+  
+   .seção3 img{
+      width: 400px;
+   }
+
+   .seção3 .part2{
+      margin-right: 0px;
+    }
+
+   .seção3 .part2 h1{
+      font-size: 3.5rem;
+      width: inherit;
+   }
+
+   .seção3 .part2 p{
+      font-size: 1.5rem;
+   }
+
+
+
+
+
+   /* Seção 4 */
+
+   .seção4{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+     }
+
+   .seção4 .part1 h1{
+      font-size: 3.5rem;
+      width: 600px;
+      
+   }
+
+
+
+   .seção4 .part1 p{
+      font-size: 1.5rem;
+      width: 600px;
+      position: relative;
+      top: 10px;
+     
+      
+   }
+
+
+   .seção4 .kids img{
+      width: 500px;
+      margin-right: 10px;
+      margin-inline-start: 70px;
+      
+    }
+
+
+
+   /* Seção 5 */
+
+   .seção5{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+     }
+
+
+
+
+   .download img{
+      width: 500px;
+      position: relative;
+
+    
+   }
+   .part2 h1{
+      font-size: 3.5rem;
+      
+     
+      width: 500px;
+      
+   }
+
+   
+  .part2 p{
+
+      font-size: 1.5rem;
+      
+      
+
+  }
+
+
+
+
+   /* Seção 6 */
+
+   .seção6 h1{
+      font-size: 3.5rem;
+   }
+   .seção6 p{
+      font-size: 1.5rem;
+   }
+
+   .perguntas{
+      width: 1300px; 
+      
+   }
+
+   .seção6 .parágrafo p{
+      font-size: 1.5rem;
+   }
+
+   .seção6 input{
+      width: 700px;
+      padding: 16px;
+      font-size: 1.3rem;
+   }
+
+
+   .seção6 button{
+      width: 170px;
+      font-size: 20px;
+      top: 0;
+      font-size: 1.5rem;
+     
+   }
+
+   /* Seção 7 */
+   
+   .seção7 .parágrafoPrincipal{
+      font-size: 1.5rem;
+   }
+   .seção7 .coluna1  p{
+      font-size: 1.1rem;
+   }
+   .parte2 p{
+      font-size: 1.1rem;
+   }
+
+   .parte3 p{
+      font-size: 1.1rem;
+   }
+
+   .parte4 p{
+      font-size: 1.1rem;
+   }
+
+   .seção7 select{
+      width: 170px;
+      font-size: 1.2rem;
+      height: 40px;
+   }
+}
+
+@media screen and (min-width:1921px) {
+   .aba-geral .aba img{
+      width: 250px;
+  }
+
+  .aba-geral select{
+
+      width: 140px;
+      font-size: 1.1rem;
+      height: 40px;
+
+  }
+
+  .aba-geral .btn-entrar{
+      width: 80px;
+      font-size: 1.1rem;
+  }
+
+  .conteúdo-central h1{
+      font-size: 5rem;
+  }
+
+  .conteúdo-central p{
+      font-size: 1.7rem;
+  }
+
+  .conteúdo-central .p2{
+      font-size: 1.7rem;
+  }
+
+  .conteúdo-central  input{
+      width: 700px;
+      font-size: 1.5rem;
+    
+      
+  }
+  .conteúdo-central  button{
+      width: 175px;
+      font-size: 26px;
+      top: 0;
+      height: 65px;
+  }
+
+  /* Seção 2 */
+
+  .seção2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+  }
+
+
+  .seção2 .part1 h1{
+      font-size: 3.5rem;
+  }
+  .seção2 .part1 p{
+      font-size: 1.5rem;
+  }
+
+  .seção2 .tv img{
+      width: 450px;
+      margin-inline-start: 60px;
+  }
+
+   /* Seção 3 */
+
+   
+  .seção3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+  }
+  
+   .seção3 img{
+      width: 400px;
+   }
+
+   .seção3 .part2{
+      margin-right: 0px;
+    }
+
+   .seção3 .part2 h1{
+      font-size: 3.5rem;
+      width: inherit;
+   }
+
+   .seção3 .part2 p{
+      font-size: 1.5rem;
+   }
+
+
+
+
+
+   /* Seção 4 */
+
+   .seção4{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+     }
+
+   .seção4 .part1 h1{
+      font-size: 3.5rem;
+      width: 600px;
+      
+   }
+
+
+
+   .seção4 .part1 p{
+      font-size: 1.5rem;
+      width: 600px;
+      position: relative;
+      top: 10px;
+     
+      
+   }
+
+
+   .seção4 .kids img{
+      width: 500px;
+      margin-right: 10px;
+      margin-inline-start: 70px;
+      
+    }
+
+
+
+   /* Seção 5 */
+
+   .seção5{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+     }
+
+
+
+
+   .download img{
+      width: 500px;
+      position: relative;
+
+    
+   }
+   .part2 h1{
+      font-size: 3.5rem;
+      
+     
+      width: 500px;
+      
+   }
+
+   
+  .part2 p{
+
+      font-size: 1.5rem;
+      
+      
+
+  }
+
+
+
+
+   /* Seção 6 */
+
+   .seção6 h1{
+      font-size: 3.5rem;
+   }
+   .seção6 p{
+      font-size: 1.5rem;
+   }
+
+   .perguntas{
+      width: 1300px; 
+      
+   }
+
+   .seção6 .parágrafo p{
+      font-size: 1.5rem;
+   }
+
+   .seção6 input{
+      width: 700px;
+      padding: 16px;
+      font-size: 1.3rem;
+   }
+
+
+   .seção6 button{
+      width: 170px;
+      font-size: 20px;
+      top: 0;
+      font-size: 1.5rem;
+     
+   }
+
+   /* Seção 7 */
+   
+   .seção7 .parágrafoPrincipal{
+      font-size: 1.5rem;
+   }
+   .seção7 .coluna1  p{
+      font-size: 1.1rem;
+   }
+   .parte2 p{
+      font-size: 1.1rem;
+   }
+
+   .parte3 p{
+      font-size: 1.1rem;
+   }
+
+   .parte4 p{
+      font-size: 1.1rem;
+   }
+
+   .seção7 select{
+      width: 170px;
+      font-size: 1.2rem;
+      height: 40px;
+   }
 }
